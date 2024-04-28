@@ -1,0 +1,55 @@
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 23px;
+}
+
+.navbar-one {
+  padding-bottom: 0px;
+}
+.navbar-one .brand-logo {
+  border-radius: 2px;
+}
+
+.navbar-one_ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-one_ul li {
+  list-style-type: none;
+}
+.navbar-one_ul .btn_a {
+  border-radius: 3px;
+  padding: 7px;
+  transition: all 220ms;
+}
+.navbar-one_ul .btn_b {
+  color: green;
+}
+.navbar-one_ul form {
+  display: flex;
+  justify-content: center;
+}
+.navbar-one_ul form input {
+  border: none;
+  width: 40%;
+  outline: none;
+}
+.navbar-one_ul form button {
+  border: none;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,52 @@
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+}
+
+.navbar-one {
+    padding-bottom: 0px;
+
+    .brand-logo {
+        border-radius: 2px;
+    }
+}
+
+.navbar-one_ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        list-style-type: none;
+    }
+
+    .btn_a {
+        border-radius: 3px;
+        padding: 7px;
+        transition: all 220ms;
+    }
+
+    .btn_b {
+        color: green;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+
+        input {
+            border: none;
+            width: 40%;
+            outline: none;
+        }
+
+
+        button {
+            border: none;
+            background-color: white;
+        }
+    }
+
+}
