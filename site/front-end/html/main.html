@@ -25,7 +25,7 @@
     <body>
 
         <!-- navbar-one part start -->
-        <nav class="navbar-one navbar bg-body-tertiary">
+        <nav class="navbar-one navbar">
             <div class="container-fluid">
                 <a class="navbar-brand playfair-display " href="#">
                     <img src="/site/front-end/assets/pic/download 2.png"
@@ -51,7 +51,8 @@
         </nav>
         <!-- navbar-one part end -->
         <!-- navbar-two part start -->
-        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar2 navbar-expand-lg"
+            id="navbar2">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -94,5 +95,56 @@
             </div>
         </nav>
         <!-- navbar-two part end -->
-    </body>
-</html>
+        <!-- main part start -->
+        <div class="main">
+
+            <div class="container-fluid">
+                <div class="maincontent">
+                    <div class="maintext">
+                        <div>
+                            <h1>Welcome to Sadra,<br>a WordPress theme.</h1>
+
+                            <p>The theme has amazing layouts, practical built-in
+                                features,<br>great bones and lighning load
+                                speed.
+                                Download
+                                it now!</p>
+                        </div>
+                        <div class="mainbtn">
+                            <button id="btn1">Learn more</button>
+                            <button class="btn btn-outline-success me-2"
+                                type="button" id="btn2">Create an account
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <img src="../assets/pic/authentic-demo-image-00005-1160x653.jpg"
+                    alt="what is web design">
+            </div>
+
+            </>
+            <!-- main part end -->
+        </body>
+        <script>
+
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        let navbar = document.getElementById("navbar2");
+
+        // Get the offset position of the navbar
+        let sticky = navbar.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+
+    </script>
+    </html>

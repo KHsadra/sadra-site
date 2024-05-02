@@ -1,7 +1,16 @@
 @import "assets/navbar-one";
 @import "assets/navbar-two";
+@import "assets/main";
 @import "assets/reset";
 
 ::placeholder{
     opacity: .5;
+}
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.container-fluid {
+    padding-left: 0%;
 }
