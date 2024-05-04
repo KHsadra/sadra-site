@@ -1,16 +1,23 @@
 @import "assets/navbar-one";
 @import "assets/navbar-two";
+@import "assets/header";
 @import "assets/main";
 @import "assets/reset";
 
-::placeholder{
+::placeholder {
     opacity: .5;
 }
+
 body {
-    margin-left: 100px;
-    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 90%;
 }
 
 .container-fluid {
     padding-left: 0%;
+    padding-right: 0%;
 }

@@ -1,64 +1,87 @@
 .main {
-    overflow-x: hidden;
-    background-color: rgb(252, 239, 225);
 
-    .container-fluid {
-        // display: flex;
-        width: 100%;
+    .maintitle {
 
-        .maincontent {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 50%;
-            height: 323px;
-            float: left;
-
-            .maintext {
-                display: flex;
-                flex-direction: column;
-
-                h1 {
-                    font-family: "Playfair Display", serif;
-                    font-weight: 700;
-                }
-
-                p {
-                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                    font-size: 17.5px;
-                    margin-bottom: 30px;
-                }
-
-            }
-
-            .mainbtn {
-                #btn1 {
-                    padding: 7px 20px;
-                    background-color: black;
-                    color: white;
-                    border-radius: 4px;
-                }
-
-                #btn2 {
-                    margin-left: 3px;
-                    padding: 7px 20px;
-                    border-radius: 3px;
-                    vertical-align: baseline;
-                    transition: all 200ms;
-                    :hover{
-                        color: white;
-                        background-color: green;
-                    }
-
-                }
-            }
-
+        h5 {
+            margin-bottom: 20px;
         }
 
-        img {
-            width: 50%;
-            float: right;
+        .grid {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            width: 100%;
+            height: 2px;
+            background-color: #e7e5e5;
+
+            .f {
+                background-color: black;
+            }
         }
     }
+
+    .maincontent {
+        margin-top: 30px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+
+
+        .c1 {
+            width: (100% / 3);
+            height: inherit;
+            background-color: bisque;
+        }
+
+        .c2 {
+            width: (100% / 3);
+            height: inherit;
+            background-color: cadetblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .c21 {
+                width: 90%;
+                height: 50%;
+                margin-bottom: 20px;
+                background-color: darkgrey;
+            }
+            .c22 {
+                width: 90%;
+                height: 50%;
+                background-color: green;
+            }
+
+        }
+
+        .c3 {
+            width: (100% / 3);
+            height: inherit;
+            background-color: sandybrown;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .c31 {
+                width: 90%;
+                height: (100% / 3);
+                margin-bottom: 20px;
+                background-color: deepskyblue;
+            }
+            .c32 {
+                width: 90%;
+                height: (100% / 3);
+                margin-bottom: 20px;
+                background-color: sienna;
+            }
+            .c33  {
+                width: 90%;
+                height: (100% / 3);
+                background-color: seagreen;
+            }
+        }
+    }
+
 }
