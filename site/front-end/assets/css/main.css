@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
 .playfair-display {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -134,13 +144,16 @@
   width: 100%;
   height: 2px;
 }
+.main .maintitle .griditem {
+  background-color: #efefef;
+}
 .main .maintitle .f {
   background-color: black;
 }
 .main .maincontent {
   margin-top: 30px;
   width: 100%;
-  height: 500px;
+  height: 400px;
   display: flex;
 }
 .main .maincontent .c1 {
@@ -156,11 +169,21 @@
 .main .maincontent .c1 p {
   opacity: 0.8;
 }
-.main .maincontent .c1 img {
+.main .maincontent .c1 .textdivmain1 {
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.main .maincontent .c1 .textdivmain1 .text11 {
   width: 100%;
-  height: 220px;
-  object-fit: cover;
-  margin-bottom: 25px;
+  height: 50%;
+}
+.main .maincontent .c1 .textdivmain1 .text21 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .main .maincontent .c2 {
   width: 33.3333333333%;
@@ -172,12 +195,36 @@
 }
 .main .maincontent .c2 .c21 {
   width: 90%;
-  height: 50%;
+  height: 46.5%;
   margin-bottom: 20px;
 }
 .main .maincontent .c2 .c22 {
   width: 90%;
-  height: 50%;
+  height: 46.5%;
+}
+.main .maincontent .c2 .textdivmain {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: right;
+}
+.main .maincontent .c2 .textdivmain .text1 {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main .maincontent .c2 .textdivmain .text2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .main .maincontent .c3 {
   width: 33.3333333333%;
@@ -202,10 +249,26 @@
   height: 33.3333333333%;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.imgdivmain {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  float: left;
+}
+.imgdivmain img {
+  width: 100%;
+  height: 100%;
+}
+
+.imgdivmain1 {
+  width: 100%;
+  height: 46%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.imgdivmain1 img {
+  width: 100%;
+  height: 100%;
 }
 
 ::placeholder {
