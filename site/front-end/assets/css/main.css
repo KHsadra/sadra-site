@@ -84,7 +84,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
   height: 323px;
   float: left;
 }
@@ -95,21 +95,23 @@
 .header .container-fluid .headercontent .headertext h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
 }
 .header .container-fluid .headercontent .headertext p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 17.5px;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .header .container-fluid .headercontent .headerbtn #btn1 {
-  padding: 7px 20px;
+  padding: 8px 22px;
   background-color: black;
   color: white;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .header .container-fluid .headercontent .headerbtn #btn2 {
   margin-left: 3px;
-  padding: 7px 20px;
+  padding: 9px 23px;
   border-radius: 3px;
   vertical-align: baseline;
   transition: all 200ms;
@@ -131,9 +133,8 @@
   grid-template-columns: auto auto auto auto auto auto;
   width: 100%;
   height: 2px;
-  background-color: #e7e5e5;
 }
-.main .maintitle .grid .f {
+.main .maintitle .f {
   background-color: black;
 }
 .main .maincontent {
@@ -145,12 +146,25 @@
 .main .maincontent .c1 {
   width: 33.3333333333%;
   height: inherit;
-  background-color: bisque;
+}
+.main .maincontent .c1 #bookmark {
+  float: inline-end;
+}
+.main .maincontent .c1 h4 {
+  font-weight: 700;
+}
+.main .maincontent .c1 p {
+  opacity: 0.8;
+}
+.main .maincontent .c1 img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 25px;
 }
 .main .maincontent .c2 {
   width: 33.3333333333%;
   height: inherit;
-  background-color: cadetblue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,17 +174,14 @@
   width: 90%;
   height: 50%;
   margin-bottom: 20px;
-  background-color: darkgrey;
 }
 .main .maincontent .c2 .c22 {
   width: 90%;
   height: 50%;
-  background-color: green;
 }
 .main .maincontent .c3 {
   width: 33.3333333333%;
   height: inherit;
-  background-color: sandybrown;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -180,18 +191,15 @@
   width: 90%;
   height: 33.3333333333%;
   margin-bottom: 20px;
-  background-color: deepskyblue;
 }
 .main .maincontent .c3 .c32 {
   width: 90%;
   height: 33.3333333333%;
   margin-bottom: 20px;
-  background-color: sienna;
 }
 .main .maincontent .c3 .c33 {
   width: 90%;
   height: 33.3333333333%;
-  background-color: seagreen;
 }
 
 * {

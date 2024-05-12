@@ -18,8 +18,8 @@
             href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/main.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/d943641e11.js"
+            crossorigin="anonymous"></script>
         <title>Sadra</title>
     </head>
     <body>
@@ -145,7 +145,17 @@
                 </div>
 
                 <div class="maincontent">
-                    <div class="c1"></div>
+                    <div class="c1">
+                        <img src="../assets/pic/600px-Example_image.png" alt>
+                        <h4>Google Just Showed Us the Future of Gaming</h4>
+                        <p>Data centers could make individual game consoles
+                            obsolete.</p>
+                        <p>Eric RavenSraft in OneZero</p>
+                        <p>Mar 20 - 5 min read <i style="margin-left: 10px;"
+                                class="fa fa-star" aria-hidden="true"></i><i
+                                onclick="bookmark()" id="bookmark"
+                                class="fa-regular fa-bookmark"></i></p>
+                    </div>
                     <div class="c2">
                         <div class="c21"></div>
                         <div class="c22"></div>
@@ -181,6 +191,16 @@
             navbar.classList.remove("sticky");
             navbar.classList.remove("bg-body-tertiary")
           }
+        }
+
+        function bookmark() {
+            const bookmark = document.getElementById("bookmark")
+            if (bookmark.className == "fa-regular fa-bookmark") {
+                document.getElementById("bookmark").className = "bookmark fa-solid fa-bookmark" 
+            }
+            else{
+                document.getElementById("bookmark").className = "fa-regular fa-bookmark"
+            }
         }
 
     </script>
