@@ -164,8 +164,8 @@
                                         style="margin-left: 10px;"
                                         class="fa fa-star"
                                         aria-hidden="true"></i><i
-                                        onclick="bookmark()" id="bookmark"
-                                        class="fa-regular fa-bookmark"></i></p>
+                                        onclick="bookmark()" id="bookmark1"
+                                        class="fa-regular fa-bookmark bk"></i></p>
                             </div>
                         </div>
                     </div>
@@ -187,9 +187,8 @@
                                             style="margin-left: 10px;"
                                             class="fa fa-star"
                                             aria-hidden="true"></i><i
-                                            style="margin-left: 20px;"
-                                            onclick="bookmark()" id="bookmark"
-                                            class="fa-regular fa-bookmark"></i></p>
+                                            onclick="bookmark()" id="bookmark2"
+                                            class="fa-regular fa-bookmark bk"></i></p>
                                 </div>
 
                             </div>
@@ -213,18 +212,75 @@
                                             style="margin-left: 10px;"
                                             class="fa fa-star"
                                             aria-hidden="true"></i><i
-                                            style="margin-left: 20px;"
-                                            onclick="bookmark()" id="bookmark"
-                                            class="fa-regular fa-bookmark"></i></p>
+                                            onclick="bookmark()" id="bookmark3"
+                                            class="fa-regular fa-bookmark bk"></i></p>
                                 </div>
                             </div>
 
                         </div>
                     </div>
                     <div class="c3">
-                        <div class="c31"></div>
-                        <div class="c32"></div>
-                        <div class="c33"></div>
+                        <div class="c31">
+                            <div class="imgdivmain">
+                                <img src="../assets/pic/600px-Example_image.png"
+                                    alt>
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>Organize the Content Moderators</h5>
+                                </div>
+                                <div class="text2">
+                                    <p>Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa fa-star"
+                                            aria-hidden="true"></i><i
+                                            onclick="bookmark()" id="bookmark4"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c32">
+                            <div class="imgdivmain">
+                                <img src="../assets/pic/600px-Example_image.png"
+                                    alt>
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>This company wants to help women hack
+                                        their</h5>
+                                </div>
+                                <div class="text2">
+                                    <p>Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa fa-star"
+                                            aria-hidden="true"></i><i
+                                            onclick="bookmark()" id="bookmark5"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c33">
+                            <div class="imgdivmain">
+                                <img src="../assets/pic/600px-Example_image.png"
+                                    alt>
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>Project Planning Tips</h5>
+                                </div>
+                                <div class="text2">
+                                    <p>Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa fa-star"
+                                            aria-hidden="true"></i><i
+                                            onclick="bookmark()" id="bookmark6"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -233,36 +289,43 @@
         </div>
     </body>
     <script>
-
-        // When the user scrolls the page, execute myFunction
         window.onscroll = function() {myFunction()};
 
-        // Get the navbar
         let navbar = document.getElementById("navbar2");
-
-        // Get the offset position of the navbar
         let sticky = navbar.offsetTop;
 
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
         function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky");
-            navbar.classList.add("bg-body-tertiary")
-          } else {
-            navbar.classList.remove("sticky");
-            navbar.classList.remove("bg-body-tertiary")
-          }
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+                navbar.classList.add("bg-body-tertiary")
+            } else {
+                navbar.classList.remove("sticky");
+                navbar.classList.remove("bg-body-tertiary")
+            }
         }
 
-        function bookmark() {
-            const bookmark = document.getElementById("bookmark")
-            if (bookmark.className == "fa-regular fa-bookmark") {
-                document.getElementById("bookmark").className = "bookmark fa-solid fa-bookmark" 
+        let bookmark1 = document.getElementById("bookmark1")
+        let bookmark2 = document.getElementById("bookmark2")
+        let bookmark3 = document.getElementById("bookmark3")
+        let bookmark4 = document.getElementById("bookmark4")
+        let bookmark5 = document.getElementById("bookmark5")
+        let bookmark6 = document.getElementById("bookmark6")
+
+        bookmark1.addEventListener("click", function() {bookmark(bookmark1)})
+        bookmark2.addEventListener("click", function() {bookmark(bookmark2)})
+        bookmark3.addEventListener("click", function() {bookmark(bookmark3)})
+        bookmark4.addEventListener("click", function() {bookmark(bookmark4)})
+        bookmark5.addEventListener("click", function() {bookmark(bookmark5)})
+        bookmark6.addEventListener("click", function() {bookmark(bookmark6)})
+
+
+        function bookmark(item) {
+            if (item.className == "fa-regular fa-bookmark bk") {
+                item.className = "fa-solid fa-bookmark bk" 
             }
             else{
-                document.getElementById("bookmark").className = "fa-regular fa-bookmark"
+                item.className = "fa-regular fa-bookmark bk"
             }
-        }
-
+        } 
     </script>
 </html>

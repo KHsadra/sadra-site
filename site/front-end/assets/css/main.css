@@ -160,9 +160,6 @@ p {
   width: 33.3333333333%;
   height: inherit;
 }
-.main .maincontent .c1 #bookmark {
-  float: inline-end;
-}
 .main .maincontent .c1 h4 {
   font-weight: 700;
 }
@@ -213,11 +210,6 @@ p {
 .main .maincontent .c2 .textdivmain .text1 {
   width: 100%;
   height: 70%;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .main .maincontent .c2 .textdivmain .text2 {
   width: 100%;
@@ -233,6 +225,25 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+.main .maincontent .c3 .textdivmain {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: right;
+}
+.main .maincontent .c3 .textdivmain .text1 {
+  width: 100%;
+  height: 70%;
+}
+.main .maincontent .c3 .textdivmain .text2 {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .main .maincontent .c3 .c31 {
   width: 90%;
@@ -269,6 +280,14 @@ p {
 .imgdivmain1 img {
   width: 100%;
   height: 100%;
+}
+
+.fa-bookmark {
+  float: inline-end;
+}
+
+.bk {
+  line-height: 1.5 !important;
 }
 
 ::placeholder {
