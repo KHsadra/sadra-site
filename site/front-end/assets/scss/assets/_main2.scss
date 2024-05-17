@@ -1,0 +1,109 @@
+.main2 {
+    display: flex;
+    justify-content: space-between;
+
+    .text21 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+    }  
+
+    .textdivmain1{
+        height: 40%;
+    }
+
+    .main21 {
+        width: 68%;
+
+        .main2title {
+            h5 {
+                margin-bottom: 20px;
+            }
+
+            .main2titlecontainer {
+                width: 100%;
+                height: 2px;
+                background-color: #efefef;
+
+                div {
+                    width: 100px;
+                    height: inherit;
+                    background-color: black;
+
+                }
+            }
+
+        }
+
+        .main2content {
+            margin-top: 30px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .main2c0 {
+                width: 50%;
+                height: 400px;
+                padding-right: 18px;
+            }
+
+            .main2c1 {
+                width: 50%;
+                height: 400px;
+                padding-left: 18px;
+            }
+
+            .main2c2 {
+                width: 50%;
+                height: 400px;
+                padding-right: 18px;
+            }
+
+            .main2c3 {
+                width: 50%;
+                height: 400px;
+                padding-left: 18px;
+            }
+
+            .imgdivmains {
+                width: 100%;
+                height: 46%;
+                object-fit: contain;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+            }
+        }
+    }
+
+    .main22 {
+        width: 30%;
+
+        .slider {
+            .slidertitle {
+                h5 {
+                    margin-bottom: 20px;
+                }
+
+                .slidertitlecontainer {
+                    width: 100%;
+                    height: 2px;
+                    background-color: #efefef;
+
+                    div {
+                        width: 100px;
+                        height: inherit;
+                        background-color: black;
+
+                    }
+                }
+            }
+        }
+    }
+}

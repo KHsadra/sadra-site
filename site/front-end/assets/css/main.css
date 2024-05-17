@@ -135,14 +135,21 @@ p {
   float: right;
 }
 
+.main {
+  margin-bottom: 60px;
+}
 .main .maintitle h5 {
   margin-bottom: 20px;
 }
-.main .maintitle .grid {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+.main .maintitle .maintitlecontainer {
   width: 100%;
   height: 2px;
+  background-color: #efefef;
+}
+.main .maintitle .maintitlecontainer div {
+  width: 200px;
+  height: inherit;
+  background-color: black;
 }
 .main .maintitle .griditem {
   background-color: #efefef;
@@ -162,9 +169,6 @@ p {
 }
 .main .maincontent .c1 h4 {
   font-weight: 700;
-}
-.main .maincontent .c1 p {
-  opacity: 0.8;
 }
 .main .maincontent .c1 .textdivmain1 {
   height: 48%;
@@ -288,6 +292,92 @@ p {
 
 .bk {
   line-height: 1.5 !important;
+}
+
+#tb {
+  font-weight: 600;
+}
+
+.main2 {
+  display: flex;
+  justify-content: space-between;
+}
+.main2 .text21 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.main2 .textdivmain1 {
+  height: 40%;
+}
+.main2 .main21 {
+  width: 68%;
+}
+.main2 .main21 .main2title h5 {
+  margin-bottom: 20px;
+}
+.main2 .main21 .main2title .main2titlecontainer {
+  width: 100%;
+  height: 2px;
+  background-color: #efefef;
+}
+.main2 .main21 .main2title .main2titlecontainer div {
+  width: 100px;
+  height: inherit;
+  background-color: black;
+}
+.main2 .main21 .main2content {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main2 .main21 .main2content .main2c0 {
+  width: 50%;
+  height: 400px;
+  padding-right: 18px;
+}
+.main2 .main21 .main2content .main2c1 {
+  width: 50%;
+  height: 400px;
+  padding-left: 18px;
+}
+.main2 .main21 .main2content .main2c2 {
+  width: 50%;
+  height: 400px;
+  padding-right: 18px;
+}
+.main2 .main21 .main2content .main2c3 {
+  width: 50%;
+  height: 400px;
+  padding-left: 18px;
+}
+.main2 .main21 .main2content .imgdivmains {
+  width: 100%;
+  height: 46%;
+  object-fit: contain;
+}
+.main2 .main21 .main2content .imgdivmains img {
+  width: 100%;
+  height: 100%;
+}
+.main2 .main22 {
+  width: 30%;
+}
+.main2 .main22 .slider .slidertitle h5 {
+  margin-bottom: 20px;
+}
+.main2 .main22 .slider .slidertitle .slidertitlecontainer {
+  width: 100%;
+  height: 2px;
+  background-color: #efefef;
+}
+.main2 .main22 .slider .slidertitle .slidertitlecontainer div {
+  width: 100px;
+  height: inherit;
+  background-color: black;
 }
 
 ::placeholder {
