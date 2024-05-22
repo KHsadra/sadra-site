@@ -9,9 +9,9 @@
         flex-direction: column;
         justify-content: end;
 
-    }  
+    }
 
-    .textdivmain1{
+    .textdivmain1 {
         height: 40%;
     }
 
@@ -44,28 +44,9 @@
             display: flex;
             flex-wrap: wrap;
 
-            .main2c0 {
+            .main2c {
                 width: 50%;
-                height: 400px;
                 padding-right: 18px;
-            }
-
-            .main2c1 {
-                width: 50%;
-                height: 400px;
-                padding-left: 18px;
-            }
-
-            .main2c2 {
-                width: 50%;
-                height: 400px;
-                padding-right: 18px;
-            }
-
-            .main2c3 {
-                width: 50%;
-                height: 400px;
-                padding-left: 18px;
             }
 
             .imgdivmains {
@@ -86,6 +67,8 @@
         width: 30%;
 
         .slider {
+            height: 100%;
+
             .slidertitle {
                 h5 {
                     margin-bottom: 20px;
@@ -104,6 +87,21 @@
                     }
                 }
             }
+
+            .slidercontent {
+                width: 100%;
+
+                .sliderc {
+                    width: 100%;
+                    height: 129px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
         }
     }
+}
+
+.sliderimagediv {
+    padding-right: 10px;
 }

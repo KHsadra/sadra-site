@@ -6,6 +6,7 @@
 
 p {
   margin: 0;
+  text-wrap: wrap;
 }
 
 .playfair-display {
@@ -160,7 +161,7 @@ p {
 .main .maincontent {
   margin-top: 30px;
   width: 100%;
-  height: 400px;
+  height: 430px;
   display: flex;
 }
 .main .maincontent .c1 {
@@ -334,25 +335,9 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
-.main2 .main21 .main2content .main2c0 {
+.main2 .main21 .main2content .main2c {
   width: 50%;
-  height: 400px;
   padding-right: 18px;
-}
-.main2 .main21 .main2content .main2c1 {
-  width: 50%;
-  height: 400px;
-  padding-left: 18px;
-}
-.main2 .main21 .main2content .main2c2 {
-  width: 50%;
-  height: 400px;
-  padding-right: 18px;
-}
-.main2 .main21 .main2content .main2c3 {
-  width: 50%;
-  height: 400px;
-  padding-left: 18px;
 }
 .main2 .main21 .main2content .imgdivmains {
   width: 100%;
@@ -366,6 +351,9 @@ p {
 .main2 .main22 {
   width: 30%;
 }
+.main2 .main22 .slider {
+  height: 100%;
+}
 .main2 .main22 .slider .slidertitle h5 {
   margin-bottom: 20px;
 }
@@ -378,6 +366,19 @@ p {
   width: 100px;
   height: inherit;
   background-color: black;
+}
+.main2 .main22 .slider .slidercontent {
+  width: 100%;
+}
+.main2 .main22 .slider .slidercontent .sliderc {
+  width: 100%;
+  height: 129px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sliderimagediv {
+  padding-right: 10px;
 }
 
 ::placeholder {

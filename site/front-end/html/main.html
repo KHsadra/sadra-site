@@ -19,7 +19,7 @@
             rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/main.css">
         <script src="https://kit.fontawesome.com/d943641e11.js"
-            crossorigin="anonymous" async></script>
+            crossorigin="anonymous"></script>
         <title>Sadra</title>
     </head>
     <body>
@@ -159,8 +159,9 @@
                                 <p id="tb">Eric RavenScraft in OneZero</p>
                                 <p>Mar 20 - 5 min read <i
                                         style="margin-left: 10px;"
-                                        class="fa fa-star"
-                                        aria-hidden="true"></i><i
+                                        onclick="star()"
+                                        id="star1"
+                                        class="fa-regular fa-star"></i><i
                                         onclick="bookmark()" id="bookmark1"
                                         class="fa-regular fa-bookmark bk"></i></p>
                             </div>
@@ -182,8 +183,9 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
-                                            aria-hidden="true"></i><i
+                                            onclick="star()"
+                                            id="star2"
+                                            class="fa-regular fa-star"></i><i
                                             onclick="bookmark()" id="bookmark2"
                                             class="fa-regular fa-bookmark bk"></i></p>
                                 </div>
@@ -207,7 +209,9 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star3"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark3"
                                             class="fa-regular fa-bookmark bk"></i></p>
@@ -230,7 +234,9 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star4"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark4"
                                             class="fa-regular fa-bookmark bk"></i></p>
@@ -251,7 +257,9 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star5"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark5"
                                             class="fa-regular fa-bookmark bk"></i></p>
@@ -271,7 +279,9 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star6"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark6"
                                             class="fa-regular fa-bookmark bk"></i></p>
@@ -293,7 +303,7 @@
                         </div>
                     </div>
                     <div class="main2content">
-                        <div class="main2c0">
+                        <div class="main2c0 main2c">
                             <div class="imgdivmain1">
                                 <img
                                     src="../assets/pic/600px-Example_image.png">
@@ -311,14 +321,16 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star7"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark7"
                                             class="fa-regular fa-bookmark bk"></i></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="main2c1">
+                        <div class="main2c1 main2c">
                             <div class="imgdivmain1">
                                 <img
                                     src="../assets/pic/600px-Example_image.png">
@@ -336,14 +348,16 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star8"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark8"
                                             class="fa-regular fa-bookmark bk"></i></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="main2c2">
+                        <div class="main2c2 main2c">
                             <div class="imgdivmain1">
                                 <img
                                     src="../assets/pic/600px-Example_image.png">
@@ -361,14 +375,16 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star9"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark9"
                                             class="fa-regular fa-bookmark bk"></i></p>
                                 </div>
                             </div>
                         </div>
-                        <div class="main2c3">
+                        <div class="main2c3 main2c">
                             <div class="imgdivmain1">
                                 <img
                                     src="../assets/pic/600px-Example_image.png">
@@ -386,7 +402,9 @@
                                     <p id="tb">Eric RavenScraft in OneZero</p>
                                     <p>Mar 20 - 5 min read <i
                                             style="margin-left: 10px;"
-                                            class="fa fa-star"
+                                            class="fa-regular fa-star"
+                                            onclick="star()"
+                                            id="star10"
                                             aria-hidden="true"></i><i
                                             onclick="bookmark()" id="bookmark10"
                                             class="fa-regular fa-bookmark bk"></i></p>
@@ -407,21 +425,137 @@
                             </div>
                         </div>
                         <div class="slidercontent">
-                            <div class="sliderc0"></div>
-                            <div class="sliderc1"></div>
-                            <div class="sliderc2"></div>
-                            <div class="sliderc3"></div>
-                            <div class="sliderc4"></div>
-                            <div class="sliderc5"></div>
-                            <div class="sliderc6"></div>
-                            <div class="sliderc7"></div>
+                            <div class="sliderc0 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                onclick="star()"
+                                                id="star11"
+                                                aria-hidden="true"></i><i
+                                                onclick="bookmark()"
+                                                id="bookmark11"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc1 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                onclick="star()"
+                                                id="star12"
+                                                aria-hidden="true"></i><i
+                                                onclick="bookmark()"
+                                                id="bookmark12"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc2 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                onclick="star()"
+                                                id="star13"
+                                                aria-hidden="true"></i><i
+                                                onclick="bookmark()"
+                                                id="bookmark13"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc3 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                onclick="star()"
+                                                id="star14"
+                                                aria-hidden="true"></i><i
+                                                onclick="bookmark()"
+                                                id="bookmark14"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc4 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                onclick="star()"
+                                                id="star15"
+                                                aria-hidden="true"></i><i
+                                                onclick="bookmark"
+                                                id="bookmark15"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
             <!-- second main part end -->
-            <p><br> <br></p>
         </div>
     </body>
     <script>
@@ -439,7 +573,7 @@
                 navbar.classList.remove("bg-body-tertiary")
             }
         }
-
+        // bookmark section
         let bookmark1 = document.getElementById("bookmark1")
         let bookmark2 = document.getElementById("bookmark2")
         let bookmark3 = document.getElementById("bookmark3")
@@ -450,6 +584,11 @@
         let bookmark8 = document.getElementById("bookmark8")
         let bookmark9 = document.getElementById("bookmark9")
         let bookmark10 = document.getElementById("bookmark10")
+        let bookmark11 = document.getElementById("bookmark11")
+        let bookmark12 = document.getElementById("bookmark12")
+        let bookmark13 = document.getElementById("bookmark13")
+        let bookmark14 = document.getElementById("bookmark14")
+        let bookmark15 = document.getElementById("bookmark15")
 
 
         bookmark1.addEventListener("click", function() {bookmark(bookmark1)})
@@ -462,6 +601,11 @@
         bookmark8.addEventListener("click", function() {bookmark(bookmark8)})
         bookmark9.addEventListener("click", function() {bookmark(bookmark9)})
         bookmark10.addEventListener("click", function() {bookmark(bookmark10)})
+        bookmark11.addEventListener("click", function() {bookmark(bookmark11)})
+        bookmark12.addEventListener("click", function() {bookmark(bookmark12)})
+        bookmark13.addEventListener("click", function() {bookmark(bookmark13)})
+        bookmark14.addEventListener("click", function() {bookmark(bookmark14)})
+        bookmark15.addEventListener("click", function() {bookmark(bookmark15)})
 
 
         function bookmark(item) {
@@ -472,5 +616,46 @@
                 item.className = "fa-regular fa-bookmark bk"
             }
         } 
+        // start section
+        let star1 = document.getElementById("star1")
+        let star2 = document.getElementById("star2")
+        let star3 = document.getElementById("star3")
+        let star4 = document.getElementById("star4")
+        let star5 = document.getElementById("star5")
+        let star6 = document.getElementById("star6")
+        let star7 = document.getElementById("star7")
+        let star8 = document.getElementById("star8")
+        let star9 = document.getElementById("star9")
+        let star10 = document.getElementById("star10")
+        let star11 = document.getElementById("star11")
+        let star12 = document.getElementById("star12")
+        let star13 = document.getElementById("star13")
+        let star14 = document.getElementById("star14")
+        let star15 = document.getElementById("star15")
+
+        star1.addEventListener("click", function() {star(star1)})
+        star2.addEventListener("click", function() {star(star2)})
+        star3.addEventListener("click", function() {star(star3)})
+        star4.addEventListener("click", function() {star(star4)})
+        star5.addEventListener("click", function() {star(star5)})
+        star6.addEventListener("click", function() {star(star6)})
+        star7.addEventListener("click", function() {star(star7)})
+        star8.addEventListener("click", function() {star(star8)})
+        star9.addEventListener("click", function() {star(star9)})
+        star10.addEventListener("click", function() {star(star10)})
+        star11.addEventListener("click", function() {star(star11)})
+        star12.addEventListener("click", function() {star(star12)})
+        star13.addEventListener("click", function() {star(star13)})
+        star14.addEventListener("click", function() {star(star14)})
+        star15.addEventListener("click", function() {star(star15)})
+
+        function star(item) {
+            if(item.className == "fa-regular fa-star") {
+                item.className = "fa-solid fa-star"
+            }
+            else{
+                item.className = "fa-regular fa-star"
+            }
+        }
     </script>
 </html>
