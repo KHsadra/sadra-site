@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../pic/1920-59-abstract-blue-glowing-shapes-background-wallpaper-modern-blue-design-backdrop.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+@import "assets/reset";
+@import "assets/login/login";
+
