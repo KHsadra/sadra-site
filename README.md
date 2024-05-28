@@ -1,11 +1,22 @@
-A full site with backend written with python(Django)
-and frontend with HTML, CSS(scss/sass), bootstrap, ...<br/>
-This site's ui and ux are from some Pinterest images :<br/> <br/>
-Main Page:<br/>
-![Median - Blog Inspired by Medium's Design WordPress Theme](https://github.com/KHsadra/sadra-site/assets/166829471/ff8a6963-1132-4e6a-a65d-ce2da6254f3c)<br/><br/>
-Sign up and Sign in:<br/>
-<br/>![13c9cf501cc135841abeea0fc0584318](https://github.com/KHsadra/sadra-site/assets/166829471/3662c0c4-c070-43c0-b6e3-345ebe0a6968)
-<br/>
-Account: <br/>
-![Hire Ground _ Profile](https://github.com/KHsadra/sadra-site/assets/166829471/15856629-479b-496a-9958-76831ea16093)<br/><br/>
-I've got inspiration from these images and changed some of it while writing the site.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Sadra-Site A Full Site Written With Django.</h1>
+    <p>I wrote this site as a training and used UIs from sites and pintrest.</p>
+    <p>NOTE: THIS SITE IS NOT COMPLETED YET!!</p>
+    <div class="main">
+      <div id="div1">
+        <h3>Main Page:</h3>
+        <img src="https://github.com/KHsadra/sadra-site/assets/166829471/ff8a6963-1132-4e6a-a65d-ce2da6254f3c" alt="main page" width="400" height="400">
+      </div>
+      <div id="div2">
+        <h3>Login/Sign up Page:</h3>
+        <img src="https://github.com/KHsadra/sadra-site/assets/166829471/aa884396-4c4c-4610-865a-dd6267f8696d" alt="login page"  width="400" height="400">
+      </div>
+    </div>
+</body>
+</html>
