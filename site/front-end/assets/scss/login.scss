@@ -7,3 +7,19 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
+input::placeholder {
+    font-size: 18px;
+    // background-color: aqua;
+    width: 20%;
+    text-align: center;
+    opacity: .8;
+    font-family: "Outfit", sans-serif;
+}
+
+input[type="password"] {
+    letter-spacing: 0.125em;
+}
+input[type="password"]::placeholder {
+    letter-spacing: 0;
+}

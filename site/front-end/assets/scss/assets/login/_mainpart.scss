@@ -9,7 +9,6 @@
     .form {
         width: 80%;
         height: 80%;
-        // background-color: aqua;
 
         .header {
             width: 100%;
@@ -17,13 +16,14 @@
             justify-content: center;
 
             .textpart {
-                width: 71%;
+                width: 75%;
 
                 h1 {
                     text-align: center;
-                    font-size: 50px;
-                    font-weight: 700;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 55px;
+                    font-weight: 500;
+                    font-family: "Outfit", sans-serif;
+                    font-optical-sizing: auto;
                 }
 
                 p {
@@ -32,6 +32,28 @@
                     margin-top: 20px;
                     font-size: 16px;
                     opacity: 0.8;
+                }
+            }
+        }
+
+        .formain {
+            form {
+                margin-top: 70px;
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    font-size: 20px;
+                    font-family: "Outfit";
+                    padding: 20px;
+                    border-radius: 50px;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-color: rgba($color: #000000, $alpha: .4);
+                    outline: none;
+                }
+                #input1 {
+                    margin-bottom: 13px;
                 }
             }
         }
