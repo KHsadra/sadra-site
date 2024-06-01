@@ -52,8 +52,31 @@
                     border-color: rgba($color: #000000, $alpha: .4);
                     outline: none;
                 }
+
                 #input1 {
                     margin-bottom: 13px;
+                }
+
+                #input2 {
+                    width: 100%;
+                }
+
+                .password-input {
+                    width: 100%;
+                    position: relative;
+
+                    .password-eye-c {
+
+                        #password-eye {
+                            position: absolute;
+                            transform: translateY(-50%);
+                            cursor: pointer;
+                            font-size: 21.5px;
+                            left: 450px;
+                            top: 50%;
+                            opacity: .6;
+                        }
+                    }
                 }
             }
         }

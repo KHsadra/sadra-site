@@ -9,6 +9,8 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
             rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d943641e11.js"
+            crossorigin="anonymous"></script>
         <title>Login</title>
     </head>
     <body>
@@ -23,8 +25,14 @@
                 </div>
                 <div class="formain">
                     <form>
-                        <input type="text" id="input1" placeholder="Username" required>
-                        <input type="password" id="input2" placeholder="Password" required>
+                        <input type="text" id="input1" placeholder="Username"
+                            required>
+                        <div class="password-input">
+                            <input type="password" id="input2"
+                                placeholder="Password" required>
+                            <span class="password-eye-c"><i id="password-eye"
+                                    class="fa-regular fa-eye-slash"></i></span>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -35,4 +43,19 @@
             </div>
         </div>
     </body>
+    <script>
+        let pe = document.getElementById("password-eye")
+        let pw = document.getElementById("input2")
+
+        showHidePassword = () => {
+            if (pw.type === "password") {
+                pw.type = "text";
+                pe.className = "fa-regular fa-eye";
+            } else {
+                pw.type = "password";
+                pe.className = "fa-regular fa-eye-slash";
+            }
+        };
+        pe.addEventListener("click", showHidePassword);
+    </script>
 </html>

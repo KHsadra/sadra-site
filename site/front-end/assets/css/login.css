@@ -61,6 +61,22 @@ p {
 .mainpart .form .formain form #input1 {
   margin-bottom: 13px;
 }
+.mainpart .form .formain form #input2 {
+  width: 100%;
+}
+.mainpart .form .formain form .password-input {
+  width: 100%;
+  position: relative;
+}
+.mainpart .form .formain form .password-input .password-eye-c #password-eye {
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 21.5px;
+  left: 450px;
+  top: 50%;
+  opacity: 0.6;
+}
 
 .imagepart {
   width: 58%;
