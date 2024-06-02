@@ -11,7 +11,7 @@ p {
 
 .mainpart {
   width: 42%;
-  height: 100%;
+  height: 100vh;
   float: left;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@ p {
 }
 .mainpart .form {
   width: 80%;
-  height: 80%;
+  height: 88%;
 }
 .mainpart .form .header {
   width: 100%;
@@ -44,14 +44,14 @@ p {
   opacity: 0.8;
 }
 .mainpart .form .formain form {
-  margin-top: 70px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
 .mainpart .form .formain form input {
   font-size: 20px;
   font-family: "Outfit";
-  padding: 17px;
+  padding: 15px;
   border-radius: 50px;
   border-width: 2px;
   border-style: solid;
@@ -65,16 +65,15 @@ p {
   width: 100%;
 }
 .mainpart .form .formain form .password-input {
-  width: 100%;
   position: relative;
 }
-.mainpart .form .formain form .password-input .password-eye-c #password-eye {
+.mainpart .form .formain form #password-eye {
   position: absolute;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   cursor: pointer;
   font-size: 21.5px;
-  left: 450px;
+  right: 30px;
   top: 35%;
   opacity: 0.5;
 }
@@ -89,7 +88,7 @@ p {
 }
 .imagepart .container {
   width: 90%;
-  height: 90%;
+  height: 100%;
 }
 .imagepart img {
   border-radius: 20px;
@@ -132,7 +131,7 @@ p {
   justify-content: center;
 }
 .formain .ocw-c .ocw .ocw-d {
-  width: 32%;
+  width: 30%;
   height: 16px;
   display: flex;
   justify-content: center;
@@ -185,11 +184,33 @@ p {
 .formain .ocw-c .ocw-icon .facebook {
   margin-left: 25px;
 }
+.formain .nam-c {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.formain .nam-c .nam {
+  display: flex;
+  justify-content: center;
+}
+.formain .nam-c .nam p {
+  font-size: 17px;
+  font-family: "Outfit";
+}
+.formain .nam-c .nam a {
+  color: rgb(86, 125, 76);
+  font-size: 17px;
+  font-family: "Outfit";
+  padding-left: 3px;
+  text-decoration: none;
+}
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 input::placeholder {
