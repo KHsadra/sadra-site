@@ -97,13 +97,13 @@ p {
   height: 100%;
 }
 
-.formain p {
+.formain #para {
   text-align: end;
   margin-top: 17px;
   margin-bottom: 35px;
   font-size: 17px;
 }
-.formain p a {
+.formain #para a {
   color: inherit;
   text-decoration: none;
   font-family: "Outfit";
@@ -122,12 +122,70 @@ p {
   color: white;
   font-family: "Outfit";
   font-weight: 300;
+  cursor: pointer;
 }
 .formain .ocw-c {
-  background-color: aqua;
+  height: 150px;
+}
+.formain .ocw-c .ocw {
   display: flex;
   justify-content: center;
 }
+.formain .ocw-c .ocw .ocw-d {
+  width: 32%;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.formain .ocw-c .ocw .ocw-d div {
+  background-color: rgb(227, 227, 227);
+  width: 100%;
+  height: 2px;
+}
+.formain .ocw-c .ocw p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Outfit";
+}
+.formain .ocw-c .ocw-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formain .ocw-c .ocw-icon .icon {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formain .ocw-c .ocw-icon .icon a {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.formain .ocw-c .ocw-icon .icon a i {
+  text-decoration: none;
+  font-size: 27px;
+  color: white;
+}
+.formain .ocw-c .ocw-icon .google {
+  margin-right: 25px;
+}
+.formain .ocw-c .ocw-icon .facebook {
+  margin-left: 25px;
+}
+
 body {
   width: 100vw;
   height: 100vh;
