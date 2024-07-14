@@ -215,8 +215,8 @@ body {
 
 input::placeholder {
   font-size: 18px;
-  width: 20%;
-  text-align: center;
+  text-align: start;
+  padding-left: 10px;
   opacity: 0.8;
   font-family: "Outfit", sans-serif;
 }
