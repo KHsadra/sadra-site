@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  text-wrap: wrap;
+}
+
+body {
+  justify-content: unset;
+}
+
+.content {
+  width: 100%;
+}
+
+/*# sourceMappingURL=user-profile.css.map */
