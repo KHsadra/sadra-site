@@ -11,12 +11,16 @@
     <div class="main">
       <div id="div1">
         <h3>Main Page:</h3>
-        <img src="https://github.com/KHsadra/sadra-site/assets/166829471/ff8a6963-1132-4e6a-a65d-ce2da6254f3c" alt="main page" width="400" height="400">
+        <img src="https://github.com/KHsadra/sadra-site/assets/166829471/ff8a6963-1132-4e6a-a65d-ce2da6254f3c" alt="main-page" width="400">
       </div>
       <div id="div2">
         <h3>Login/Sign up Page:</h3>
-        <img src="https://github.com/KHsadra/sadra-site/assets/166829471/aa884396-4c4c-4610-865a-dd6267f8696d" alt="login page"  width="400" height="400">
+        <img src="https://github.com/KHsadra/sadra-site/assets/166829471/aa884396-4c4c-4610-865a-dd6267f8696d" alt="login-page"  width="400">
       </div>
+        <div>
+            <h3>User Profile:</h3>
+            <img src="https://github.com/user-attachments/assets/2ef00b58-86e2-484d-abd2-418f3d91bf29" alt="user-profile" width="400">
+        </div>
     </div>
 </body>
-</html>
+
