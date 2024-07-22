@@ -399,4 +399,16 @@ body {
   padding-right: 0%;
 }
 
+.fa-star, .fa-bookmark, h4, h5 {
+  cursor: pointer;
+}
+
+p {
+  cursor: default;
+}
+
+#tb {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=main.css.map */
