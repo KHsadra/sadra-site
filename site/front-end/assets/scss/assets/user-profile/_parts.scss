@@ -1,0 +1,16 @@
+.parts {
+    width: 90%;
+    background-color: tan;
+    margin-top: 20px;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        width: 28%;
+        height: 100%;
+        background-color: bisque;
+        border-radius: 10px;
+    }
+}

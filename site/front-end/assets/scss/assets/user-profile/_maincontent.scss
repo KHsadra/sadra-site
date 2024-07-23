@@ -1,0 +1,15 @@
+.maincontent {
+    background-color: rgb(235, 236, 240);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    .prew {
+        margin-top: 20px;
+        background-color: rosybrown;
+        width: 90%;
+        height: 600px;
+        border-radius: 10px;
+    }
+}

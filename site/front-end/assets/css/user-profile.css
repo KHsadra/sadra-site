@@ -9,8 +9,49 @@ p {
   text-wrap: wrap;
 }
 
+.navbar-one_ul {
+  margin-bottom: unset;
+}
+
+.navbar-one {
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+.maincontent {
+  background-color: rgb(235, 236, 240);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.maincontent .prew {
+  margin-top: 20px;
+  background-color: rosybrown;
+  width: 90%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.parts {
+  width: 90%;
+  background-color: tan;
+  margin-top: 20px;
+  height: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parts div {
+  width: 28%;
+  height: 100%;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
 body {
-  justify-content: unset;
+  display: unset;
 }
 
 .content {
