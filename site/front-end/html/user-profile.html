@@ -12,6 +12,11 @@
         <link rel="stylesheet" href="../assets/css/user-profile.css">
         <script src="https://kit.fontawesome.com/d943641e11.js"
             crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="/site/front-end/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <script
+            src="/site/front-end/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"
+            defer></script>
         <title>Document</title>
     </head>
     <body>
@@ -51,12 +56,27 @@
                         alt="cover image">
                     <button><i class="fa-solid fa-camera"></i>Edit
                         cover</button>
-                </div>
-                <div class="profileImage">
                     <div class="containerPF">
                         <img src="../assets/pic/600px-Example_image.png"
                             alt="profile image">
                         <a href="#"><i class="fa-solid fa-camera"></i></a>
+                    </div>
+                </div>
+                <div class="infopart">
+                    <div>
+                        <h1>Susanne Miller</h1>
+                        <span>(they/them)</span>
+                        <button><i class="fa-solid fa-circle"
+                                style="color: rgb(37, 135, 90);"></i>Available</button>
+                    </div>
+                    <p>Internal Communications Manager</p>
+                </div>
+                <div class="tab">
+                    <div id="d1" style="margin-right: 40px;">
+                        <span onclick="show" id="s1">Activity</span>
+                    </div>
+                    <div id="d2">
+                        <span onclick="show" id="s2">Information</span>
                     </div>
                 </div>
             </div>
@@ -69,5 +89,29 @@
 
             </div>
         </div>
+        <script>
+            let s1 = document.getElementById("s1")
+            let s2 = document.getElementById("s2")
+    
+            let d1 = document.getElementById("d1")
+            let d2 = document.getElementById("d2")
+            
+            function show(d, d1, s, s1) {
+                if(d1.className == "visible"){
+                    d1.classList.remove("visible")
+                    s1.style.color = "rgb(111, 124, 140)"
+                    d.classList.add("visible")
+                    s.style.color = "rgb(45, 148, 160)"
+                }else{
+                    d.classList.add("visible")
+                    s.style.color = "rgb(45, 148, 160)"
+                }
+            } 
+    
+            s1.addEventListener("click", function() {show(d1, d2, s1, s2)})
+            s2.addEventListener("click", function() {show(d2, d1, s2, s1)})
+    
+            
+        </script>
     </body>
 </html>

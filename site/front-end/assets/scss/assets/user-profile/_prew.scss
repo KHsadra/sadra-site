@@ -33,28 +33,26 @@
         }
     }
 
-    .profileImage {
+    .containerPF {
+        width: min-content;
         position: absolute;
-        bottom: 33%;
-        left: 35px;
-        .containerPF {
-            width: min-content;
-            position: relative;
-            border: 2px solid white;
+        bottom: -15px;
+        left: 30px;
+        border: 2px solid white;
+        border-radius: 100%;
+
+        img {
             border-radius: 100%;
-            img {
-                border-radius: 100%;
-                width: 100px;
-                height: 100px;
+            width: 100px;
+            height: 100px;
 
-            }
+        }
 
-            a {
-                color: white;
-                position: absolute;
-                bottom: 5px;
-                left: 43%;
-            }
+        a {
+            color: white;
+            position: absolute;
+            bottom: 5px;
+            left: 43%;
         }
     }
 }
