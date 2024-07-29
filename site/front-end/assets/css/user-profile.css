@@ -20,7 +20,7 @@ p {
 
 .maincontent {
   background-color: rgb(235, 236, 240);
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,24 +30,63 @@ p {
   margin-top: 20px;
   background-color: white;
   width: 90%;
-  height: 600px;
+  height: 350px;
   border-radius: 10px;
 }
 
 .parts {
   width: 90%;
-  background-color: tan;
   margin-top: 20px;
-  height: 480px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.parts div {
-  width: 28%;
+.parts .t {
+  background-color: white;
+  width: 32%;
+  height: 370px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.parts .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: min-content;
+  margin-bottom: 15px;
+}
+.parts .title h3 {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.parts .title a {
+  margin-right: 20px;
+  color: rgb(103, 116, 134);
+  font-size: 16px;
+}
+.parts .data {
   height: 100%;
-  background-color: bisque;
-  border-radius: 10px;
+  width: 80%;
+}
+.parts .data .d {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.parts .data .d p {
+  margin-bottom: auto;
+}
+.parts .data .d #label {
+  color: rgb(98, 112, 129);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.parts .data .d #data {
+  color: rgb(45, 148, 160);
+  font-weight: 500;
 }
 
 .prew {
@@ -99,29 +138,29 @@ p {
   left: 43%;
 }
 
-.infopart {
+.tabpart {
   padding-left: 30px;
 }
-.infopart div {
+.tabpart div {
   margin-top: 25px;
 }
-.infopart div h1 {
+.tabpart div h1 {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   display: inline;
 }
-.infopart div span {
+.tabpart div span {
   margin-right: 10px;
 }
-.infopart div button {
+.tabpart div button {
   cursor: default;
   border: 1px solid rgb(186, 186, 190);
   background-color: white;
   border-radius: 2px;
   padding: 3px 7px;
 }
-.infopart div button i {
+.tabpart div button i {
   padding-right: 8px;
 }
 
@@ -153,6 +192,10 @@ p {
 
 .color {
   color: rgb(45, 148, 160);
+}
+
+#d2 {
+  width: 120px;
 }
 
 body {

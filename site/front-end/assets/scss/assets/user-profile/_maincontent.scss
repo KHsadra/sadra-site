@@ -1,6 +1,6 @@
 .maincontent {
     background-color: rgb(235, 236, 240);
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
         margin-top: 20px;
         background-color: white;
         width: 90%;
-        height: 600px;
+        height: 350px;
         border-radius: 10px;
     }
 }
