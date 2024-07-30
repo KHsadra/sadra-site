@@ -43,9 +43,11 @@
         .d {
             margin-left: 20px;
             margin-bottom: 15px;
-            p{
+
+            p {
                 margin-bottom: auto;
             }
+
             #label {
                 color: rgb(98, 112, 129);
                 font-family: Arial, Helvetica, sans-serif;
@@ -60,7 +62,8 @@
         }
     }
 
-    .information, .work {
+    .information,
+    .work {
         #data {
             color: rgb(14, 26, 46) !important;
         }
