@@ -1,0 +1,14 @@
+@import "assets/reset";
+@import "assets/user-profile/navbar";
+@import "assets/user-profile/maincontent";
+@import "assets/user-profile/parts";
+@import "assets/user-profile/prew";
+@import "assets/user-profile/tab";
+
+body {
+    display: unset;
+}
+
+.content {
+    width: 100%;
+}
