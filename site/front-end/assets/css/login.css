@@ -1,13 +1,3 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../pic/1920-59-abstract-blue-glowing-shapes-background-wallpaper-modern-blue-design-backdrop.jpg");
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -19,10 +9,224 @@ p {
   text-wrap: wrap;
 }
 
-.login {
-  width: 93vw;
-  height: 90vh;
-  background-color: rosybrown;
+.mainpart {
+  width: 42%;
+  height: 100vh;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainpart .form {
+  width: 80%;
+  height: 88%;
+}
+.mainpart .form .header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainpart .form .header .textpart {
+  width: 75%;
+}
+.mainpart .form .header .textpart h1 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+.mainpart .form .header .textpart p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.mainpart .form .formain form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.mainpart .form .formain form input {
+  font-size: 20px;
+  font-family: "Outfit";
+  padding: 15px;
+  border-radius: 50px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.4);
+  outline: none;
+}
+.mainpart .form .formain form #input1 {
+  margin-bottom: 13px;
+}
+.mainpart .form .formain form #input2 {
+  width: 100%;
+}
+.mainpart .form .formain form .password-input {
+  position: relative;
+}
+.mainpart .form .formain form #password-eye {
+  position: absolute;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  cursor: pointer;
+  font-size: 21.5px;
+  right: 30px;
+  top: 35%;
+  opacity: 0.5;
+}
+
+.imagepart {
+  width: 58%;
+  height: 100%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagepart .container {
+  width: 90%;
+  height: 100%;
+}
+.imagepart img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.formain #para {
+  text-align: end;
+  margin-top: 17px;
+  margin-bottom: 35px;
+  font-size: 17px;
+}
+.formain #para a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Outfit";
+  font-weight: 500;
+}
+.formain .btn-c {
+  height: 63px;
+  margin-bottom: 45px;
+}
+.formain .btn-c button {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  font-family: "Outfit";
+  font-weight: 300;
+  cursor: pointer;
+}
+.formain .ocw-c {
+  height: 150px;
+}
+.formain .ocw-c .ocw {
+  display: flex;
+  justify-content: center;
+}
+.formain .ocw-c .ocw .ocw-d {
+  width: 30%;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.formain .ocw-c .ocw .ocw-d div {
+  background-color: rgb(227, 227, 227);
+  width: 100%;
+  height: 2px;
+}
+.formain .ocw-c .ocw p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Outfit";
+}
+.formain .ocw-c .ocw-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formain .ocw-c .ocw-icon .icon {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formain .ocw-c .ocw-icon .icon a {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.formain .ocw-c .ocw-icon .icon a i {
+  text-decoration: none;
+  font-size: 27px;
+  color: white;
+}
+.formain .ocw-c .ocw-icon .google {
+  margin-right: 25px;
+}
+.formain .ocw-c .ocw-icon .facebook {
+  margin-left: 25px;
+}
+.formain .nam-c {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.formain .nam-c .nam {
+  display: flex;
+  justify-content: center;
+}
+.formain .nam-c .nam p {
+  font-size: 17px;
+  font-family: "Outfit";
+}
+.formain .nam-c .nam a {
+  color: rgb(86, 125, 76);
+  font-size: 17px;
+  font-family: "Outfit";
+  padding-left: 3px;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+input::placeholder {
+  font-size: 18px;
+  text-align: start;
+  padding-left: 10px;
+  opacity: 0.8;
+  font-family: "Outfit", sans-serif;
+}
+
+input[type=password] {
+  letter-spacing: 0.125em;
+}
+
+input[type=password]::placeholder {
+  letter-spacing: 0;
 }
 
 /*# sourceMappingURL=login.css.map */
