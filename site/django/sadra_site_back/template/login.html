@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../assets/css/login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d943641e11.js"
+            crossorigin="anonymous"></script>
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="mainpart">
+            <div class="form">
+                <div class="header">
+                    <div class="textpart">
+                        <h1>Welcome back!</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Praesentium animi pariatur adipisci.</p>
+                    </div>
+                </div>
+                <div class="formain">
+                    <form>
+                        <input type="text" id="input1" placeholder="Username"
+                            required>
+                        <div class="password-input">
+                            <input type="password" id="input2"
+                                placeholder="Password" required>
+                            <i id="password-eye"
+                                class="fa-regular fa-eye-slash"></i>
+                        </div>
+                        <p id="para"><a href="#">Forgot Password?</a></p>
+                        <div class="btn-c">
+                            <button>Login</button>
+                        </div>
+                        <div class="ocw-c">
+                            <div class="ocw">
+                                <div class="ocw-d a">
+                                    <div></div>
+                                </div>
+                                <p>or continue with</p>
+                                <div class="ocw-d b">
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="ocw-icon">
+                                <div class="icon google"><a href="#"><i
+                                            class="fa-brands fa-google"></i></a></div>
+                                <div class="icon apple"><a href="#"><i
+                                            class="fa-brands fa-apple"></i></a></div>
+                                <div class="icon facebook"><a href="#"><i
+                                            class="fa-brands fa-facebook"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="nam-c">
+                            <div class="nam">
+                                <p>Not a member?</p>
+                                <a href="#">Register now</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="imagepart">
+            <div class="container">
+                <img src="../assets/pic/login-image.png" alt>
+            </div>
+        </div>
+
+    </body>
+    <script>
+        let pe = document.getElementById("password-eye")
+        let pw = document.getElementById("input2")
+
+        showHidePassword = () => {
+            if (pw.type === "password") {
+                pw.type = "text";
+                pe.className = "fa-regular fa-eye";
+            } else {
+                pw.type = "password";
+                pe.className = "fa-regular fa-eye-slash";
+            }
+        };
+        pe.addEventListener("click", showHidePassword);
+    </script>
+</html>

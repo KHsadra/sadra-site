@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="/site/front-end/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <script
+            src="/site/front-end/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"
+            defer></script>
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="../assets/css/user-profile.css">
+        <script src="https://kit.fontawesome.com/d943641e11.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+            href="/site/front-end/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <script
+            src="/site/front-end/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"
+            defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- navbar-one part start -->
+        <nav class="navbar-one navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand playfair-display " href="#">
+                    <img src="/site/front-end/assets/pic/download 2.png"
+                        alt="Logo" width="30" height="30"
+                        class="brand-logo d-inline-block align-text-top">
+                    Sadra.
+                </a>
+                <ul class="navbar-one_ul">
+
+                    <form>
+                        <input type="text" placeholder="Search.."
+                            name="search">
+                        <button type="submit"><i
+                                class="fa fa-search"></i></button>
+                    </form>
+                    <button class="btn_b btn me-2"
+                        type="button">Sign in
+                    </button>
+                    <button class="btn_a btn btn-outline-success me-2"
+                        type="button">Create an account
+                    </button>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar-one part end -->
+
+        <div class="maincontent">
+
+            <div class="prew">
+                <div class="coverImage">
+                    <img src="../assets/pic/600px-Example_image.png"
+                        alt="cover image">
+                    <button><i class="fa-solid fa-camera"></i>Edit
+                        cover</button>
+                    <div class="containerPF">
+                        <img src="../assets/pic/600px-Example_image.png"
+                            alt="profile image" id="pf">
+                        <a href="#"><i class="fa-solid fa-camera"></i></a>
+                    </div>
+                </div>
+                <div class="tabpart">
+                    <div>
+                        <h1>Susanne Miller</h1>
+                        <span>(they/them)</span>
+                        <button><i class="fa-solid fa-circle"
+                                style="color: rgb(37, 135, 90);"></i>Available</button>
+                    </div>
+                    <p>Internal Communications Manager</p>
+                </div>
+                <div class="tab">
+                    <div id="d1">
+                        <span onclick="show" id="s1">Activity</span>
+                    </div>
+                    <div id="d2" class="visible">
+                        <span onclick="show" id="s2"
+                            style="color: rgb(45, 148, 160);">Information</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parts">
+                <div class="contact t">
+                    <div class="title">
+                        <h3>Contact</h3>
+                        <a href="#"><i class="fas fa-edit"></i></a>
+                    </div>
+
+                    <div class="data">
+                        <div class="d email">
+                            <p id="label">Email</p>
+                            <p id="data">susanne.miller@haiilo.com</p>
+                        </div>
+                        <div class="d mobile">
+                            <p id="label">Mobile</p>
+                            <p id="data">+1 212 2345678</p>
+                        </div>
+                        <div class="d phone">
+                            <p id="label">Phone</p>
+                            <p id="data">+1 212 2345678</p>
+                        </div>
+                        <div class="d site">
+                            <p id="label">Site</p>
+                            <p id="data">https://example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="information t">
+                    <div class="title">
+                        <h3>Information</h3>
+                        <a href="#"><i class="fas fa-edit"></i></a>
+                    </div>
+
+                    <div class="data">
+                        <div class="d birthday">
+                            <p id="label">Birthday</p>
+                            <p id="data">August 08</p>
+                        </div>
+                        <div class="d pronouns">
+                            <p id="label">Pronouns</p>
+                            <p id="data">they/them</p>
+                        </div>
+                        <div class="d languages">
+                            <p id="label">Languages</p>
+                            <p id="data">English, Spanish</p>
+                        </div>
+                        <div class="d hometown">
+                            <p id="label">Hometown</p>
+                            <p id="data">Hickory, North Carolina</p>
+                        </div>
+                        <div class="d interest">
+                            <p id="label">Interests</p>
+                            <p id="data">Nature phtotography, swimming</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work t">
+                    <div class="title">
+                        <h3>Work</h3>
+                        <a href="#"><i class="fas fa-edit"></i></a>
+                    </div>
+
+                    <div class="data">
+                        <div class="d jobtitle">
+                            <p id="label">Job Title</p>
+                            <p id="data">Internal Communications Manager</p>
+                        </div>
+                        <div class="d company">
+                            <p id="label">Company</p>
+                            <p id="data">Haiilo Inc.</p>
+                        </div>
+                        <div class="d department">
+                            <p id="label">Department</p>
+                            <p id="data">Communications</p>
+                        </div>
+                        <div class="d currentlocation">
+                            <p id="label">Current location</p>
+                            <p id="data">New York City, New York</p>
+                        </div>
+                        <div class="d office">
+                            <p id="label">Office</p>
+                            <p id="data">Remote</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            let s1 = document.getElementById("s1")
+            let s2 = document.getElementById("s2")
+    
+            let d1 = document.getElementById("d1")
+            let d2 = document.getElementById("d2")
+            
+            function show(d, d1, s, s1) {
+                if(d1.className == "visible"){
+                    d1.classList.remove("visible")
+                    s1.style.color = "rgb(111, 124, 140)"
+                    d.classList.add("visible")
+                    s.style.color = "rgb(45, 148, 160)"
+                }else{
+                    d.classList.add("visible")
+                    s.style.color = "rgb(45, 148, 160)"
+                }
+            } 
+    
+            s1.addEventListener("click", function() {show(d1, d2, s1, s2)})
+            s2.addEventListener("click", function() {show(d2, d1, s2, s1)})
+    
+            
+        </script>
+    </body>
+</html>

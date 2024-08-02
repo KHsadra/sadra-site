@@ -1,0 +1,643 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href={% static 'css/bootstrap.min.css' %}>
+        <script
+            src={% static "js/bootstrap.bundle.min.js" %}
+            defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href={% static "css/main.css" %}>
+        <script src="https://kit.fontawesome.com/d943641e11.js"
+            crossorigin="anonymous"></script>
+        <title>Sadra</title>
+    </head>
+    <body>
+        <div class="content">
+            <!-- navbar-one part start -->
+            <nav class="navbar-one navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand playfair-display " href="#">
+                        <img src="/site/front-end/assets/pic/download 2.png"
+                            alt="Logo" width="30" height="30"
+                            class="brand-logo d-inline-block align-text-top">
+                        Sadra.
+                    </a>
+                    <ul class="navbar-one_ul" style="margin-bottom: 0;">
+
+                        <form>
+                            <input type="text" placeholder="Search.."
+                                name="search">
+                            <button type="submit"><i
+                                    class="fa fa-search"></i></button>
+                        </form>
+                        <button class="btn_b btn me-2"
+                            type="button">Sign in
+                        </button>
+                        <button class="btn_a btn btn-outline-success me-2"
+                            type="button">Create an account
+                        </button>
+                    </ul>
+                </div>
+            </nav>
+            <!-- navbar-one part end -->
+            <!-- navbar-two part start -->
+            <nav class="navbar navbar2 navbar-expand-lg"
+                id="navbar2">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+                            id="nav2-ul">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="#" style="font-weight: 600;">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">UI/UX DESIGN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">WEB DEVELOPMENT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TYPOGRAPHY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FREELANCE
+                                    BUSINESS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LIFESTYLE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">STARTUPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MORE LAYOUTS <img
+                                        src="../assets/pic/icons8-arrow-down-50 (1).png"
+                                        alt="down arrow" width="20" height="20">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- navbar-two part end -->
+            <!-- header part start -->
+            <div class="header">
+
+                <div class="container-fluid">
+                    <div class="headercontent">
+                        <div class="headertext">
+                            <div>
+                                <h1 style="cursor: default;">Welcome to Sadra,<br>a WordPress theme.</h1>
+
+                                <p style="cursor: default;">The theme has amazing layouts, practical
+                                    built-in
+                                    features,<br>great bones and lighning load
+                                    speed.
+                                    Download
+                                    it now!</p>
+                            </div>
+                            <div class="headerbtn">
+                                <button id="btn1">Learn more</button>
+                                <button class="btn btn-outline-success me-2"
+                                    type="button" id="btn2">Create an account
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img
+                        src="../assets/pic/authentic-demo-image-00005-1160x653-removebg-preview.jpg"
+                        alt="what is web design">
+                </div>
+
+            </div>
+            <!-- header part end -->
+            <!-- main part start -->
+            <div class="main">
+
+                <div class="maintitle">
+                    <h5>Featured for members</h5>
+                    <div class="maintitlecontainer">
+                        <div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="maincontent">
+                    <div class="c1">
+                        <div class="imgdivmain1">
+                            <img src="../assets/pic/600px-Example_image.png">
+
+                        </div>
+                        <div class="textdivmain1">
+                            <div class="text11">
+                                <h4>Google Just Showed Us the Future of
+                                    Gaming</h4>
+                                <p>Data centers could make individual game
+                                    consoles
+                                    obsolete.</p>
+                            </div>
+                            <div class="text21">
+                                <p id="tb">Eric RavenScraft in OneZero</p>
+                                <p>Mar 20 - 5 min read <i
+                                        style="margin-left: 10px;"
+                                        id="star1"
+                                        class="fa-regular fa-star"></i><i
+                                        id="bookmark1"
+                                        class="fa-regular fa-bookmark bk"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="c2">
+                        <div class="c21">
+                            <div class="imgdivmain">
+                                <img
+                                    src="../assets/pic/600px-Example_image.png">
+
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>How a Limitless Internet Binds Us</h5>
+                                    <p>The war for your ...</p>
+                                </div>
+                                <div class="text2">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            id="star2"
+                                            class="fa-regular fa-star"></i><i
+                                            id="bookmark2"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="c22">
+                            <div class="imgdivmain">
+                                <img
+                                    src="../assets/pic/600px-Example_image.png">
+
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>MoranStanley Fired Me 22 Days After I
+                                        returned
+                                        from Meternity Leave</h5>
+                                    <p></p>
+                                </div>
+                                <div class="text2">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star3"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark3"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="c3">
+                        <div class="c31">
+                            <div class="imgdivmain">
+                                <img src="../assets/pic/600px-Example_image.png"
+                                    alt>
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>Organize the Content Moderators</h5>
+                                </div>
+                                <div class="text2">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star4"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark4"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c32">
+                            <div class="imgdivmain">
+                                <img src="../assets/pic/600px-Example_image.png"
+                                    alt>
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>This company wants to help women hack
+                                        their</h5>
+                                </div>
+                                <div class="text2">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star5"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark5"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c33">
+                            <div class="imgdivmain">
+                                <img src="../assets/pic/600px-Example_image.png"
+                                    alt>
+                            </div>
+                            <div class="textdivmain">
+                                <div class="text1">
+                                    <h5>Project Planning Tips</h5>
+                                </div>
+                                <div class="text2">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star6"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark6"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main part end -->
+            <!-- second main part start -->
+            <div class="main2">
+                <div class="main21">
+                    <div class="main2title">
+                        <h5>Latest Posts</h5>
+                        <div class="main2titlecontainer">
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main2content">
+                        <div class="main2c0 main2c">
+                            <div class="imgdivmain1">
+                                <img
+                                    src="../assets/pic/600px-Example_image.png">
+
+                            </div>
+                            <div class="textdivmain1">
+                                <div class="text11">
+                                    <h4>Google Just Showed Us the Future of
+                                        Gaming</h4>
+                                    <p>Data centers could make individual game
+                                        consoles
+                                        obsolete.</p>
+                                </div>
+                                <div class="text21">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star7"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark7"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main2c1 main2c">
+                            <div class="imgdivmain1">
+                                <img
+                                    src="../assets/pic/600px-Example_image.png">
+
+                            </div>
+                            <div class="textdivmain1">
+                                <div class="text11">
+                                    <h4>Google Just Showed Us the Future of
+                                        Gaming</h4>
+                                    <p>Data centers could make individual game
+                                        consoles
+                                        obsolete.</p>
+                                </div>
+                                <div class="text21">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star8"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark8"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main2c2 main2c">
+                            <div class="imgdivmain1">
+                                <img
+                                    src="../assets/pic/600px-Example_image.png">
+
+                            </div>
+                            <div class="textdivmain1">
+                                <div class="text11">
+                                    <h4>Google Just Showed Us the Future of
+                                        Gaming</h4>
+                                    <p>Data centers could make individual game
+                                        consoles
+                                        obsolete.</p>
+                                </div>
+                                <div class="text21">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star9"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark9"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main2c3 main2c">
+                            <div class="imgdivmain1">
+                                <img
+                                    src="../assets/pic/600px-Example_image.png">
+
+                            </div>
+                            <div class="textdivmain1">
+                                <div class="text11">
+                                    <h4>Google Just Showed Us the Future of
+                                        Gaming</h4>
+                                    <p>Data centers could make individual game
+                                        consoles
+                                        obsolete.</p>
+                                </div>
+                                <div class="text21">
+                                    <p id="tb">Eric RavenScraft in OneZero</p>
+                                    <p>Mar 20 - 5 min read <i
+                                            style="margin-left: 10px;"
+                                            class="fa-regular fa-star"
+                                            id="star10"
+                                            aria-hidden="true"></i><i
+                                            id="bookmark10"
+                                            class="fa-regular fa-bookmark bk"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main22">
+                    <div class="slider">
+                        <div class="slidertitle">
+                            <div class="slidertitle">
+                                <h5>Popluar Posts</h5>
+                                <div class="slidertitlecontainer">
+                                    <div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slidercontent">
+                            <div class="sliderc0 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                id="star11"
+                                                aria-hidden="true"></i><i
+                                                id="bookmark11"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc1 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                id="star12"
+                                                aria-hidden="true"></i><i
+                                                id="bookmark12"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc2 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                id="star13"
+                                                aria-hidden="true"></i><i
+                                                id="bookmark13"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc3 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                id="star14"
+                                                aria-hidden="true"></i><i
+                                                id="bookmark14"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sliderc4 sliderc">
+                                <div class="imgdivmain sliderimagediv">
+                                    <img
+                                        src="../assets/pic/600px-Example_image.png"
+                                        alt>
+                                </div>
+                                <div class="textdivmain">
+                                    <div class="text1">
+                                        <h5>Organize the Content Moderators</h5>
+                                    </div>
+                                    <div class="text2">
+                                        <p id="tb">Eric RavenScraft in
+                                            OneZero</p>
+                                        <p>Mar 20 - 5 min read <i
+                                                style="margin-left: 10px;"
+                                                class="fa-regular fa-star"
+                                                id="star15"
+                                                aria-hidden="true"></i><i
+                                                onclick="bookmark"
+                                                id="bookmark15"
+                                                class="fa-regular fa-bookmark bk"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- second main part end -->
+        </div>
+    </body>
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        let navbar = document.getElementById("navbar2");
+        let sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+                navbar.classList.add("bg-body-tertiary")
+            } else {
+                navbar.classList.remove("sticky");
+                navbar.classList.remove("bg-body-tertiary")
+            }
+        }
+        // bookmark section
+        let bookmark1 = document.getElementById("bookmark1")
+        let bookmark2 = document.getElementById("bookmark2")
+        let bookmark3 = document.getElementById("bookmark3")
+        let bookmark4 = document.getElementById("bookmark4")
+        let bookmark5 = document.getElementById("bookmark5")
+        let bookmark6 = document.getElementById("bookmark6")
+        let bookmark7 = document.getElementById("bookmark7")
+        let bookmark8 = document.getElementById("bookmark8")
+        let bookmark9 = document.getElementById("bookmark9")
+        let bookmark10 = document.getElementById("bookmark10")
+        let bookmark11 = document.getElementById("bookmark11")
+        let bookmark12 = document.getElementById("bookmark12")
+        let bookmark13 = document.getElementById("bookmark13")
+        let bookmark14 = document.getElementById("bookmark14")
+        let bookmark15 = document.getElementById("bookmark15")
+
+
+        bookmark1.addEventListener("click", function() {bookmark(bookmark1)})
+        bookmark2.addEventListener("click", function() {bookmark(bookmark2)})
+        bookmark3.addEventListener("click", function() {bookmark(bookmark3)})
+        bookmark4.addEventListener("click", function() {bookmark(bookmark4)})
+        bookmark5.addEventListener("click", function() {bookmark(bookmark5)})
+        bookmark6.addEventListener("click", function() {bookmark(bookmark6)})
+        bookmark7.addEventListener("click", function() {bookmark(bookmark7)})
+        bookmark8.addEventListener("click", function() {bookmark(bookmark8)})
+        bookmark9.addEventListener("click", function() {bookmark(bookmark9)})
+        bookmark10.addEventListener("click", function() {bookmark(bookmark10)})
+        bookmark11.addEventListener("click", function() {bookmark(bookmark11)})
+        bookmark12.addEventListener("click", function() {bookmark(bookmark12)})
+        bookmark13.addEventListener("click", function() {bookmark(bookmark13)})
+        bookmark14.addEventListener("click", function() {bookmark(bookmark14)})
+        bookmark15.addEventListener("click", function() {bookmark(bookmark15)})
+
+
+        function bookmark(item) {
+            if (item.className == "fa-regular fa-bookmark bk") {
+                item.className = "fa-solid fa-bookmark bk" 
+            }
+            else{
+                item.className = "fa-regular fa-bookmark bk"
+            }
+        } 
+        // start section
+        let star1 = document.getElementById("star1")
+        let star2 = document.getElementById("star2")
+        let star3 = document.getElementById("star3")
+        let star4 = document.getElementById("star4")
+        let star5 = document.getElementById("star5")
+        let star6 = document.getElementById("star6")
+        let star7 = document.getElementById("star7")
+        let star8 = document.getElementById("star8")
+        let star9 = document.getElementById("star9")
+        let star10 = document.getElementById("star10")
+        let star11 = document.getElementById("star11")
+        let star12 = document.getElementById("star12")
+        let star13 = document.getElementById("star13")
+        let star14 = document.getElementById("star14")
+        let star15 = document.getElementById("star15")
+
+        star1.addEventListener("click", function() {star(star1)})
+        star2.addEventListener("click", function() {star(star2)})
+        star3.addEventListener("click", function() {star(star3)})
+        star4.addEventListener("click", function() {star(star4)})
+        star5.addEventListener("click", function() {star(star5)})
+        star6.addEventListener("click", function() {star(star6)})
+        star7.addEventListener("click", function() {star(star7)})
+        star8.addEventListener("click", function() {star(star8)})
+        star9.addEventListener("click", function() {star(star9)})
+        star10.addEventListener("click", function() {star(star10)})
+        star11.addEventListener("click", function() {star(star11)})
+        star12.addEventListener("click", function() {star(star12)})
+        star13.addEventListener("click", function() {star(star13)})
+        star14.addEventListener("click", function() {star(star14)})
+        star15.addEventListener("click", function() {star(star15)})
+
+        function star(item) {
+            if(item.className == "fa-regular fa-star") {
+                item.className = "fa-solid fa-star"
+            }
+            else{
+                item.className = "fa-regular fa-star"
+            }
+        }
+    </script>
+</html>
